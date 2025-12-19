@@ -1,2 +1,10 @@
 pip install -r requirements.txt
 python run_experiments.py --mode remove --envs_per_cfg 50
+
+Full evaluation:
+# Main runs (required)
+python run_experiments.py --mode remove --envs_per_cfg 50
+python run_experiments.py --mode move   --envs_per_cfg 50
+# Generate plots
+python plot_results.py
+
